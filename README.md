@@ -373,8 +373,117 @@ screenshots/
 ├── 11_algorithm_comparison.png
 └── 12_business_insights.png
 ```
+## 📊 EDA Pairplot
 
+**Objective:** Explore relationships and distributions among the customer features.
+
+**Expected Output:** A pairplot showing relationships between Age, Annual Income, and Spending Score.
+<img width="985" height="1023" alt="image" src="https://github.com/user-attachments/assets/2c08b875-eb75-4812-8fe6-a8b02856d576" />
+
+
+
+## 🔥 Correlation Heatmap
+
+**Objective:** Analyze the correlation between numerical customer features.
+
+**Expected Output:** A correlation heatmap showing the strength and direction of relationships between Age, Annual Income, and Spending Score.
+<img width="985" height="1023" alt="image" src="https://github.com/user-attachments/assets/9db2d13a-55fe-4033-9dc7-2fc11cf2af9d" />
+
+
+
+## 📉 Elbow Method
+
+**Objective:** Determine the optimal number of clusters (K) for K-Means clustering.
+
+**Expected Output:** An Elbow Method plot showing the relationship between the number of clusters (K) and within-cluster sum of squares (WCSS/Inertia).
+<img width="773" height="547" alt="image" src="https://github.com/user-attachments/assets/e82e8cd3-05d6-4ae5-89d2-1292d443d2fd" />
+
+
+
+
+## 📊 Silhouette Score
+
+**Objective:** Evaluate the quality of K-Means clustering for different numbers of clusters (K) using the Silhouette Score.
+
+**Expected Output:** A plot showing the Silhouette Score for different K values, with the highest score indicating the best K.
+<img width="777" height="547" alt="image" src="https://github.com/user-attachments/assets/b1b2551c-9e25-41ab-b12e-7fa62fb3e8f7" />
+
+
+
+## 👥 K-Means Clusters
+
+**Objective:** Visualize the customer segments created using the K-Means clustering algorithm.
+
+**Expected Output:** A scatter plot showing customers grouped into different K-Means clusters based on Annual Income and Spending Score.
 ### Example README image section
+
+
+
+## 📊 K-Means Cluster Profile
+
+**Objective:** Analyze the characteristics of each customer cluster using average Age, Annual Income, and Spending Score.
+
+**Expected Output:** A cluster profile showing the average customer attributes and customer count for each K-Means cluster.
+
+
+
+## 🌳 Hierarchical Dendrogram
+
+**Objective:** Visualize the hierarchical relationships between customers and identify a suitable number of clusters.
+
+**Expected Output:** A dendrogram showing how customer groups are merged at different distance levels.
+
+
+
+
+## 👥 Hierarchical Clusters
+
+**Objective:** Visualize customer segments created using Hierarchical Clustering.
+
+**Expected Output:** A scatter plot showing customers grouped into hierarchical clusters based on Annual Income and Spending Score.
+
+
+
+
+## 📍 DBSCAN 4-NN Distance Plot
+
+**Objective:** Determine a suitable `eps` value for DBSCAN using the 4-nearest-neighbor distance plot.
+
+**Expected Output:** A sorted 4-NN distance plot where the knee point helps identify an appropriate `eps` value.
+
+
+
+
+## 🔵 DBSCAN Clusters
+
+**Objective:** Visualize customer segments identified by the DBSCAN clustering algorithm.
+
+**Expected Output:** A scatter plot showing DBSCAN clusters and noise points separately.
+
+
+
+
+
+## 📊 Algorithm Comparison
+
+**Objective:** Compare K-Means, Hierarchical Clustering, and DBSCAN using the same customer features.
+
+**Expected Output:** A three-panel visualization showing the clustering results of all three algorithms.
+
+
+
+
+
+## 💼 Business Insights
+
+**Objective:** Translate customer segments into actionable business strategies for mall management.
+
+**Expected Output:** Clear customer segment interpretations and targeted marketing recommendations for each segment.
+
+
+
+
+
 
 ```markdown
 ## 📸 Screenshots
