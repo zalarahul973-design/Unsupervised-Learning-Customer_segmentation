@@ -1,11 +1,29 @@
 
 
-<p align="center">
-  <h1 align="center">🛍️ Mall Customer Segmentation</h1>
-  <p align="center"><b>Unsupervised Learning • K-Means • Hierarchical Clustering • DBSCAN • Business Insights</b></p>
+
+<div align="center">
+
+# 🛍️ <span style="color:#CC0000;">Mall Customer Segmentation</span>
+
+### 🎯 Unsupervised Machine Learning • Customer Analytics • Business Insights
+
+**🔵 K-Means** &nbsp; • &nbsp; **🟣 Hierarchical Clustering** &nbsp; • &nbsp; **🟢 DBSCAN**
+
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/ML-Unsupervised%20Learning-CC0000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/K--Means-Clustering-CC0000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Hierarchical-Clustering-CC0000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/DBSCAN-Density%20Clustering-CC0000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Python-3.13-CC0000?style=for-the-badge&logo=python&logoColor=white">
 </p>
 
----
+<br>
+
+
+
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b7915856-7690-4c59-9aaf-20c4e17da49a" />
 
 
@@ -53,23 +71,29 @@
 ---
 ## 📌 Project Overview
 
-This project performs **customer segmentation** on the Mall Customers dataset using unsupervised machine learning techniques.
+This project performs **customer segmentation** on the **Mall Customers** dataset using **unsupervised machine learning** techniques.
 
-The main goal is to group customers with similar behaviour based on:
+### 🎯 Main Objective
 
-- 💰 Annual Income
-- 🛒 Spending Score
-- 👤 Age
+The primary goal is to group customers with similar behaviour based on:
 
-For the primary clustering analysis, **Annual Income** and **Spending Score** are used because they provide clearer visual separation between customer groups.
+- 💰 **Annual Income**
+- 🛒 **Spending Score**
+- 👤 **Age**
+
+For the primary clustering analysis, **Annual Income** and **Spending Score** are selected because they provide clearer visual separation between customer groups.
+
+### 🤖 Clustering Algorithms
 
 The project compares three clustering algorithms:
 
-1. 🔵 K-Means Clustering
-2. 🟣 Agglomerative Hierarchical Clustering
-3. 🟢 DBSCAN
+1. 🔵 **K-Means Clustering**
+2. 🟣 **Agglomerative Hierarchical Clustering**
+3. 🟢 **DBSCAN**
 
-The final analysis is converted into practical business recommendations for targeted marketing.
+### 💼 Business Objective
+
+The final customer segments are analysed and converted into **practical business insights and targeted marketing recommendations**.
 
 ---
 
