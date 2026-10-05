@@ -75,96 +75,95 @@ The final analysis is converted into practical business recommendations for targ
 
 ## 🎯 Project Objectives
 
-- Load and understand the Mall Customers dataset.
-- Perform Exploratory Data Analysis (EDA).
-- Clean and preprocess the data.
-- Encode the Gender feature.
-- Standardise numerical features using `StandardScaler`.
-- Select Annual Income and Spending Score for primary clustering.
-- Determine a suitable number of K-Means clusters using the Elbow Method and Silhouette Score.
-- Apply K-Means clustering.
-- Apply Agglomerative Hierarchical Clustering.
-- Apply DBSCAN with parameter tuning.
-- Compare clustering algorithms using Silhouette Score.
-- Build customer cluster profiles.
-- Translate clusters into business insights and marketing strategies.
-- Save the trained K-Means model using Joblib.
+- 📂 **Load & Understand Data** — Load and explore the Mall Customers dataset.
+- 🔍 **Perform EDA** — Analyze customer characteristics and feature relationships.
+- 🧹 **Data Preprocessing** — Clean and prepare the dataset for clustering.
+- 🏷️ **Encode Gender** — Convert the Gender feature into numerical form.
+- 📏 **Feature Scaling** — Standardise numerical features using `StandardScaler`.
+- 🎯 **Select Clustering Features** — Use `Annual Income` and `Spending Score` for primary clustering.
+- 📉 **Find Optimal K** — Use the Elbow Method and Silhouette Score to determine a suitable number of K-Means clusters.
+- 🔵 **Apply K-Means** — Segment customers using centroid-based clustering.
+- 🌳 **Apply Hierarchical Clustering** — Perform Agglomerative Hierarchical Clustering and analyze the dendrogram.
+- 🟢 **Apply DBSCAN** — Perform density-based clustering with parameter tuning.
+- 📊 **Compare Algorithms** — Evaluate K-Means, Hierarchical, and DBSCAN using Silhouette Score.
+- 👥 **Build Cluster Profiles** — Analyze the characteristics of each customer segment.
+- 💼 **Generate Business Insights** — Translate customer segments into actionable marketing strategies.
+- 💾 **Save ML Model** — Save the trained K-Means model using `Joblib`.
 
 ---
 
 # 📊 Dataset
 
-The project uses the **Mall Customers** dataset.
+The project uses the **Mall Customers** dataset to analyse customer characteristics and perform customer segmentation.
 
-### Dataset Details
+### 📋 Dataset Details
 
-| Item | Details |
+| 🔹 Item | 📌 Details |
 |---|---|
-| 👥 Total Customers | 200 |
-| 🆔 Original ID | `CustomerID` |
-| 👤 Gender | Male / Female |
-| 🎂 Age | Customer age |
-| 💰 Annual Income | Annual income in k$ |
-| 🛒 Spending Score | Spending score from 1–100 |
+| 👥 **Total Customers** | 200 |
+| 🆔 **Original ID** | `CustomerID` |
+| 👤 **Gender** | Male / Female |
+| 🎂 **Age** | Customer age |
+| 💰 **Annual Income** | Annual income in k$ |
+| 🛍️ **Spending Score** | Spending score from 1–100 |
 
-### Main Clustering Features
+### 🎯 Main Clustering Features
+
+The primary clustering analysis uses:
 
 ```text
-Annual_Income
-Spending_Score
+💰 Annual_Income
+🛍️ Spending_Score
+
 ```
-
-The notebook applies `StandardScaler` before distance-based clustering.
-
----
-
-# 🔍 Exploratory Data Analysis
+# 🔍 Exploratory Data Analysis (EDA)
 
 The notebook includes:
 
-- Dataset structure and information
-- Statistical summary
-- Missing-value checking
-- Feature distributions
-- Pairplot
-- Correlation heatmap
+- 📋 **Dataset Structure & Information**
+- 📊 **Statistical Summary**
+- 🔎 **Missing-Value Checking**
+- 📈 **Feature Distributions**
+- 🔗 **Pairplot Analysis**
+- 🔥 **Correlation Heatmap**
 
-### EDA Insight
+### 💡 EDA Insight
 
-Annual Income and Spending Score provide clearer visual separation than the other feature combinations, so they are selected as the main two-feature clustering space.
+**💰 Annual Income** and **🛍️ Spending Score** provide clearer visual separation than the other feature combinations. Therefore, they are selected as the **🎯 primary two-feature clustering space**.
 
 ---
 
+```
 # ⚙️ Data Preprocessing
 
 The following preprocessing steps are performed:
 
-### 1. Rename Columns
+### 1️⃣ 📝 Rename Columns
 
 ```text
 Annual Income (k$) → Annual_Income
 Spending Score (1-100) → Spending_Score
 ```
 
-### 2. Remove CustomerID
+### 2️⃣ 🗑️ Remove CustomerID
 
 `CustomerID` is an identifier and is not useful for customer similarity calculations.
 
-### 3. Encode Gender
+### 3️⃣ 🏷️ Encode Gender
 
 Gender is converted into numerical form using `LabelEncoder`.
 
-### 4. Feature Scaling
+### 4️⃣ 📏 Feature Scaling
 
 `StandardScaler` is applied to the numerical features.
 
 Scaling is important because K-Means and DBSCAN are distance-based algorithms and features with larger numerical ranges can otherwise have greater influence.
-
+---
 ---
 
 # 🔵 K-Means Clustering
 
-## Elbow Method
+## 📉 Elbow Method
 
 The Elbow Method was used to test cluster counts from `k = 1` to `k = 10`.
 
@@ -174,16 +173,13 @@ The notebook selected:
 Elbow k = 5
 ```
 
-## Silhouette Score
+## 📊 Silhouette Score
 
 Silhouette Scores were calculated from `k = 2` to `k = 10`.
 
 The best result was:
-
-```text
-Best k = 5
-Silhouette Score = 0.5547
-```
+🏆 Best k = 5
+📈 Silhouette Score = 0.5547
 
 Therefore, the final K-Means model uses **5 clusters**.
 
@@ -492,22 +488,6 @@ screenshots/
 
 
 
-```markdown
-## 📸 Screenshots
-
-### 🔵 K-Means Clustering
-![K-Means Clustering](screenshots/05_kmeans_clusters.png)
-
-### 🟣 Hierarchical Clustering
-![Hierarchical Clustering](screenshots/08_hierarchical_clusters.png)
-
-### 🟢 DBSCAN Clustering
-![DBSCAN Clustering](screenshots/10_dbscan_clusters.png)
-
-### 📊 Algorithm Comparison
-![Algorithm Comparison](screenshots/11_algorithm_comparison.png)
-```
-
 ---
 
 # 📓 Jupyter Notebook
@@ -573,7 +553,7 @@ Replace the placeholder below with your actual video URL:
 ```markdown
 ## 🎥 Project Demo Video
 
-▶️ [Watch the Project Demo](PASTE_YOUR_VIDEO_LINK_HERE)
+▶️ https://drive.google.com/file/d/1LOeGl2czBSjsDmMEhQLd1UhKTnr5GWQC/view?usp=sharing
 ```
 
 ### Suggested video content
@@ -732,34 +712,36 @@ for the saved StandardScaler artifact.
 
 Through this project, the following concepts were practiced:
 
-- Unsupervised Learning
-- Exploratory Data Analysis
-- Feature Encoding
-- Feature Scaling
-- K-Means Clustering
-- Elbow Method
-- Silhouette Score
-- Agglomerative Hierarchical Clustering
-- Dendrogram
-- DBSCAN
-- Hyperparameter tuning
-- Noise detection
-- Cluster profiling
-- Business segmentation
-- Model persistence using Joblib
+- 🤖 **Unsupervised Learning**
+- 🔍 **Exploratory Data Analysis (EDA)**
+- 🏷️ **Feature Encoding**
+- 📏 **Feature Scaling**
+- 🔵 **K-Means Clustering**
+- 📉 **Elbow Method**
+- 📊 **Silhouette Score**
+- 🌳 **Agglomerative Hierarchical Clustering**
+- 🌿 **Dendrogram Analysis**
+- 🟢 **DBSCAN Clustering**
+- ⚙️ **Hyperparameter Tuning**
+- 🚨 **Noise Detection**
+- 👥 **Cluster Profiling**
+- 💼 **Business Segmentation**
+- 💾 **Model Persistence using Joblib**
 
 ---
 
 # 🚀 Future Improvements
 
-- Add PCA-based visualisation.
-- Test clustering using all available numerical features.
-- Tune DBSCAN parameters further.
-- Build an interactive Streamlit customer segmentation app.
-- Create a customer segment prediction interface.
-- Add automated model evaluation.
-- Add dashboard visualisations for business users.
-- Deploy the segmentation application online.
+The project can be further enhanced by:
+
+- 📉 **Add PCA Visualisation** — Reduce dimensionality and visualise customer segments in 2D.
+- 🔢 **Use More Features** — Test clustering with all relevant numerical features.
+- ⚙️ **Further Tune DBSCAN** — Explore additional `eps` and `min_samples` combinations.
+- 🌐 **Build a Streamlit App** — Create an interactive customer segmentation application.
+- 🎯 **Add Prediction Interface** — Allow users to enter customer details and identify their segment.
+- 📊 **Automate Model Evaluation** — Compare clustering algorithms and metrics automatically.
+- 📈 **Create Business Dashboards** — Present customer segments and insights through interactive dashboards.
+- ☁️ **Deploy Online** — Deploy the customer segmentation application for real-world use.
 
 ---
 
@@ -795,4 +777,4 @@ These segments can help mall management design targeted marketing campaigns, loy
   <b>🛍️ Segment Customers • 📊 Analyze Behaviour • 🎯 Target Better • 🚀 Grow Business</b>
 </p>
 
-⭐ If you foun
+
