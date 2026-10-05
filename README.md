@@ -1,6 +1,27 @@
+<div align="center">
 
+# 🛍️ Mall Customer Segmentation
 
+### 🎯 Unsupervised Machine Learning • Customer Analytics • Business Insights
 
+**🔵 K-Means** &nbsp; • &nbsp; **🟣 Hierarchical Clustering** &nbsp; • &nbsp; **🟢 DBSCAN**
+
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/ML-Unsupervised%20Learning-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/K--Means-Clustering-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/DBSCAN-Density%20Clustering-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python">
+</p>
+
+<p>
+  <b>📊 Customer Segmentation using Annual Income, Spending Score & Age</b>
+</p>
+
+</div>
+
+---
 
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b7915856-7690-4c59-9aaf-20c4e17da49a" />
