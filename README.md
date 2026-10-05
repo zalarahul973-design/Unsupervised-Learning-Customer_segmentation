@@ -416,6 +416,7 @@ screenshots/
 
 **Expected Output:** A scatter plot showing customers grouped into different K-Means clusters based on Annual Income and Spending Score.
 ### Example README image section
+<img width="850" height="624" alt="image" src="https://github.com/user-attachments/assets/a7ec75e2-3258-4219-a99d-49cef6d11226" />
 
 
 
@@ -424,6 +425,7 @@ screenshots/
 **Objective:** Analyze the characteristics of each customer cluster using average Age, Annual Income, and Spending Score.
 
 **Expected Output:** A cluster profile showing the average customer attributes and customer count for each K-Means cluster.
+<img width="647" height="237" alt="Screenshot 2026-10-05 075304" src="https://github.com/user-attachments/assets/7b28135d-ac83-4ccf-a49d-58a8a4e20a37" />
 
 
 
@@ -432,6 +434,7 @@ screenshots/
 **Objective:** Visualize the hierarchical relationships between customers and identify a suitable number of clusters.
 
 **Expected Output:** A dendrogram showing how customer groups are merged at different distance levels.
+<img width="1389" height="590" alt="image" src="https://github.com/user-attachments/assets/0909f692-7cc4-498c-b5f3-1b5ad637423a" />
 
 
 
@@ -441,6 +444,7 @@ screenshots/
 **Objective:** Visualize customer segments created using Hierarchical Clustering.
 
 **Expected Output:** A scatter plot showing customers grouped into hierarchical clusters based on Annual Income and Spending Score.
+<img width="850" height="624" alt="image" src="https://github.com/user-attachments/assets/c080adf5-fb8a-4d7c-9d2e-3da8eee654a3" />
 
 
 
@@ -450,6 +454,7 @@ screenshots/
 **Objective:** Determine a suitable `eps` value for DBSCAN using the 4-nearest-neighbor distance plot.
 
 **Expected Output:** A sorted 4-NN distance plot where the knee point helps identify an appropriate `eps` value.
+<img width="846" height="547" alt="image" src="https://github.com/user-attachments/assets/ee46d6fc-8567-4a20-88c5-3e975da11eca" />
 
 
 
@@ -459,6 +464,7 @@ screenshots/
 **Objective:** Visualize customer segments identified by the DBSCAN clustering algorithm.
 
 **Expected Output:** A scatter plot showing DBSCAN clusters and noise points separately.
+<img width="850" height="624" alt="image" src="https://github.com/user-attachments/assets/89647c4f-18c3-4412-8544-2577c94728e6" />
 
 
 
@@ -469,6 +475,7 @@ screenshots/
 **Objective:** Compare K-Means, Hierarchical Clustering, and DBSCAN using the same customer features.
 
 **Expected Output:** A three-panel visualization showing the clustering results of all three algorithms.
+<img width="1787" height="495" alt="image" src="https://github.com/user-attachments/assets/4b012903-e47b-43d3-93a9-e10e23b29dbb" />
 
 
 
