@@ -1,6 +1,3 @@
-
-
-
 <div align="center">
 
 # 🛍️ <span style="color:#CC0000;">Mall Customer Segmentation</span>
