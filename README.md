@@ -1,22 +1,4 @@
-<div align="center">
 
-# 🛍️ <span style="color:#CC0000;">Mall Customer Segmentation</span>
-
-### 🎯 Unsupervised Machine Learning • Customer Analytics • Business Insights
-
-**🔵 K-Means** &nbsp; • &nbsp; **🟣 Hierarchical Clustering** &nbsp; • &nbsp; **🟢 DBSCAN**
-
-<br>
-
-<p>
-  <img src="https://img.shields.io/badge/ML-Unsupervised%20Learning-CC0000?style=for-the-badge">
-  <img src="https://img.shields.io/badge/K--Means-Clustering-CC0000?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Hierarchical-Clustering-CC0000?style=for-the-badge">
-  <img src="https://img.shields.io/badge/DBSCAN-Density%20Clustering-CC0000?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Python-3.13-CC0000?style=for-the-badge&logo=python&logoColor=white">
-</p>
-
-<br>
 
 
 
